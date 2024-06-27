@@ -5,7 +5,7 @@ import btn from './assets/hamster-icon.png'
 import logo from './assets/logo.png'
 
 function Hamster() {
-  const [count, setCount] = useState(1111)
+  const [count, setCount] = useState(0)
   const [upgradeCost,setupgradeCost] = useState(100)
   const [clicks,setclicks] = useState(1)
 
