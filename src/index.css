@@ -1,0 +1,14 @@
+html,body{
+    padding: 0;
+    margin: 0;
+    background-color: black;
+}
+
+#root{
+    display: flex;
+    min-width: 1147px;
+    min-height: 591px;
+    margin:auto;
+    background-color: black;
+    font-family: "Gill Sans", sans-serif;
+}

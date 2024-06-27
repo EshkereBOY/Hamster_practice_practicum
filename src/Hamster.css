@@ -1,0 +1,105 @@
+.main-card {
+    height: 900px;
+    width: 500px;
+    background-color: #1c1f24;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+    border-radius: 1.5rem;
+}
+
+.div-shadow {
+    margin: 30px auto;
+    padding: 0 20px;
+    background: #1c1f24;
+    text-align: center;
+    box-shadow: 0 0 20px #e2d299;
+}
+
+.upgrades {
+    display: flex;
+    flex-direction: column;
+    background-color: #262a2f;
+    margin: 1.5rem;
+    border-radius: 1rem;
+    padding: 1.5rem 5rem 1.5rem 5rem;
+}
+
+.upgrades-text {
+    text-align:center;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+}
+.upgrades2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 50px;
+}
+
+.upgrade-image{
+    margin-top: 5px;
+}
+
+.counter {
+    display: flex;
+    font-size: 50px;
+    flex-flow: row nowrap;
+    color: white;
+    font-weight: 500;
+    padding: 0.5rem;
+}
+.counter-img{
+    margin-top: 5px;
+}
+
+.coin {
+    width: 50px;
+    height: 50px;
+}
+
+.btn-hmst {
+    width: 450px;
+    height: 450px;
+    padding: 0;
+}
+
+.btn-hmst:active {
+    width: 430px;
+    height: 430px;
+    padding: 0;
+    transition: 0.05s ease-in-out;
+}
+
+button {
+    border: none;
+    background: none;
+    padding: 0;
+    cursor: pointer;
+    outline: none; /* Убирает обводку при фокусе */
+}
+
+.Author {
+    display: flex;
+    justify-content: space-between;
+    background-color: #262a2f;
+    margin: 1.5rem;
+    border-radius: 1rem;
+    color: white;
+    font-size: 30px;
+    margin-top: 1.2rem;
+    margin-bottom: 1.2rem;
+    font-weight: 600;
+    padding-left: 0.5rem;
+    margin-top: auto; /* Добавлено для фиксации внизу */
+}
+
+.logo {
+    width: 80px;
+    height: 80px;
+    border-radius: 1.5rem;
+    margin: 0.4rem 1rem;
+}
